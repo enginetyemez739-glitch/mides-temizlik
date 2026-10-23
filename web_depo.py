@@ -30,7 +30,7 @@ client = gspread.authorize(creds)
 try:
     sheet = client.open('MİDES - Temizlik Deposu')
 except:
-    st.error("Google Drive'da 'MİDES Temizlik Deposu' adında bir tablo bulunamadı.")
+    st.error("Google Drive'da 'MİDES - Temizlik Deposu' adında bir tablo bulunamadı.")
     st.stop()
 
 try:
