@@ -1,0 +1,9 @@
+streamlit
+pandas
+qrcode
+Pillow
+requests
+opencv-python-headless
+numpy
+openpyxl
+gspread
