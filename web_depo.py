@@ -97,7 +97,7 @@ if not st.session_state['giris_yapildi']:
             secilen_rol = st.selectbox("Kullanıcı Tipi", ["Yönetici", "Personel"])
             girilen_sifre = st.text_input("Şifre", type="password")
             if st.form_submit_button("Giriş Yap", use_container_width=True):
-                if secilen_rol == "Yönetici" and girilen_sifre == "Engin5307":
+                if secilen_rol == "Yönetici" and girilen_sifre == "Temiz5307":
                     st.session_state.update({'giris_yapildi': True, 'kullanici': "Yönetici", 'rol': "admin"})
                     st.rerun()
                 elif secilen_rol == "Personel" and girilen_sifre == "Depo5307":
